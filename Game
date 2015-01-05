@@ -1,0 +1,1920 @@
+#include <iostream>
+
+using namespace std;
+string pass;
+string jawaban;
+void salah()
+{
+     system("title GAME OVER");
+     system("color 80");
+     system("cls");
+     system("color 30");
+     cout<<endl;
+     system("color 10");
+     cout<<endl;
+     system("color 82");
+     cout<<"Game Over"<<endl;
+     system("color f0");
+     cout<<"Game Over"<<endl;
+     system("color 85");
+     system("color 30");
+     system("color f0");
+     system("color 82");
+     system("color 80");
+     system("color 85");
+     cout<<"tekan enter untuk melanjutkan"<<endl;
+     system("pause>>null");
+return ;
+}
+void menang()
+{
+     system("title OOPS, YOU ARE THE WINNER");
+     system("color 80");
+     system("cls");
+     system("color 30");
+     cout<<endl;
+     system("color 10");
+     cout<<endl;
+     system("color 82");
+     cout<<"OOPS, CONGRATULATION, YOU ARE THE WINNER"<<endl;
+     system("color f0");
+     system("color 85");
+     system("color 30");
+     system("color f0");
+     system("color 82");
+     system("color 80");
+     system("color 85");
+     cout<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"ANDA SECARA RESMI TELAH MENAMATKAN GAME INI"<<endl;
+     cout<<"SARAN, KRITIK, UMPATAN, KATA BIJAK, BATA, CENDOL dan sebangainya, Kirim ke @Hacksetyobudi | Fb.com/Hacksetyobudi"<<endl;
+}
+void soal100()
+{
+     system("title YOU ARE NOT THE WINNER");
+     system("color 80");
+     system("cls");
+     system("color 30");
+     cout<<endl;
+     system("color 10");
+     cout<<endl;
+     system("color 82");
+     cout<<"OOPS, CONGRATULATION, YOU ARE THE WINNER"<<endl;
+     system("color f0");
+     cout<<"YEAH, SORRY, YOU ARE GAME OVER"<<endl;
+     system("color 85");
+     system("color 30");
+     system("color f0");
+     system("color 82");
+     system("color 80");
+     system("color 85");
+     cout<<" - .... . / -.-. .-. . .- - --- .-. "<<endl;
+     cout<<" .- -.-. .-. --- -. -.-- "<<endl;
+     cin>>jawaban;
+     if (jawaban=="mhs")
+     {menang();}
+     else
+     salah();
+}
+void soal99()
+{
+     system("title THE GAME IS NOT OVER");
+     system("color 80");
+     system("cls");
+     system("color 30");
+     cout<<endl;
+     system("color 10");
+     cout<<endl;
+     system("color 82");
+     cout<<"Game Over"<<endl;
+     system("color f0");
+     cout<<"Game Over"<<endl;
+     system("color 85");
+     system("color 30");
+     system("color f0");
+     system("color 82");
+     system("color 80");
+     system("color 85");
+     cout<<"tekan enter untuk melanjutkan"<<endl;
+     system("pause>>null");
+     soal100();
+}
+void soal98()
+{
+     system("title Everywhere");
+     system("cls");
+     cout<<"siapa nama orang Bali yang hobi travelling?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="Made")
+     {soal99();}
+     else
+     salah();
+}
+void soal97()
+{
+     system("title Lubang Tanah lagi");
+     system("cls");
+     cout<<"Jumlah tanah yang digali permeter kubik ada 90 kg, "<<endl;
+     cout<<"berapakah jumlah tanah pada sebuah lubang dengan panjang 10 meter lebar 12 meter dan dalam 9 meter?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="kosong")
+     {soal98();}
+     else
+     salah();
+}
+void soal96()
+{
+     system("title Keluarga lagi");
+     system("cls");
+     cout<<"Sebuah keluarga besar terdiri dari tujuh anak laki-laki dan masing-masing mempunyai satu saudara perempuan. "<<endl;
+     cout<<"Berapa orang yang ada pada keluarga tersebut?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="10")
+     {soal97();}
+     else
+     salah();
+}
+void soal95()
+{
+     system("title 81 81 81 81");
+     system("cls");
+     cout<<"Mana yang lebih besar, 18 persen dari 81 atau 81 persen dari 18?"<<endl;
+     cout<<endl;
+     cout<<"    a. 18 persen dari 81           c. 81 persen dari 18 "<<endl;
+     cout<<"    z. Sama "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="z")
+     {soal96();}
+     else
+     salah();
+}
+void soal94()
+{
+     system("title Pitungatus Sangangpuluh Songo");
+     system("cls");
+     cout<<"Ada jenis angka 3 digit, jika dibagi 6 atau 7 bersisa 1, jika dibagi 8 atau 11 bersisa 7, berapakah angka yang paling besar jenis angka tersebut."<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="799")
+     {soal95();}
+     else
+     salah();
+}
+void soal93()
+{
+     system("title The Highest Mountain before");
+     system("cls");
+     cout<<"Sebelum gunung everest ditemukan, gunung apa yang tertinggi di dunia?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="everest")
+     {soal94();}
+     else
+     salah();
+}
+void soal92()
+{
+     system("title Empat soal sebelum soal ini pasti akan menolongmu");
+     system("cls");
+     cout<<"1=4 , 2=3 , 3=4 , 5=4 , berapakah 12?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="8")
+     {soal93();}
+     else
+     salah();
+}
+void soal91()
+{
+     system("title Silsilah keluarga");
+     system("cls");
+     cout<<"Seseorang mengenalkan kepadamu, kakak perempuan iparnya suaminya adik perempuan satu satunya ibumu, siapa dia?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="ibumu")
+     {soal92();}
+     else
+     salah();
+}
+void soal90()
+{
+     system("title Kamu, Kamu, Kamu, Hanya kau, Karena kamu, Dan Cuma kamu");
+     system("cls");
+     cout<<"Apa yang sebenernya kepunyaan kamu, tapi lebih sering dipakai orang lain"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="nama")
+     {soal91();}
+     else
+     salah();
+}
+void soal89()
+{
+     system("title Keluarga Terencana lagi");
+     system("cls");
+     cout<<"Sepasang suami istri punya 4 anak perempuan & setiap anak perempuan mempunya 1 orang saudara laki laki, berpa anggota keluarga itu?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="7")
+     {soal90();}
+     else
+     salah();
+}
+void soal88()
+{
+     system("cls");
+     cout<<"10 - 1 = 3"<<endl;
+     cout<<"9 - 2 = 5"<<endl;
+     cout<<"8 - 3 = 3"<<endl;
+     cout<<"7 - 4 = 0"<<endl;
+     cout<<"6 - 5 = ...."<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="0")
+     {soal89();}
+     else
+     salah();
+}
+void soal87()
+{
+     system("cls");
+     cout<<"mataku agak berkantung,badanku tegap, aku ramah kepada tamu,tapi kadang aku galak"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="satpam")
+     {soal88();}
+     else
+     salah();
+}
+void soal86()
+{
+     system("title Don't Study Hard");
+     system("cls");
+     cout<<"Aku sering gunting kuku tangan tapi hanya sebelah tangan,"<<endl;
+     cout<<"terus jari2 kiriku lebih lentur daripada jari dtngn kanan #Siapakah Aku?"<<endl;
+     cout<<endl;
+     cout<<"    a. Copet           c. Kuntilanak "<<endl;
+     cout<<"    b. Setan           d. Pemain Gitar "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="d")
+     {soal87();}
+     else
+     salah();
+}
+void soal85()
+{
+     system("title muncul 100 kali");
+     system("cls");
+     cout<<"Berapa kali angka 7 muncul di antara bilangan 1 sampai 100?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="20")
+     {soal86();}
+     else
+     salah();
+}
+void soal84()
+{
+     system("title 1 > 0.5");
+     system("cls");
+     cout<<"Apakah 0,99999… (jumlah 9 tidak terhingga) lebih kecil dari 1?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="tidak")
+     {soal85();}
+     else
+     salah();
+}
+void soal83()
+{
+     system("title Anak ayam tinggal 8");
+     system("cls");
+     cout<<"Ayah Mary punya lima anak: 1. Nana, 2. Nene, 3. Nini, 4. Nono. Siapa nama anak kelima? "<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="Mary")
+     {soal84();}
+     else
+     salah();
+}
+void soal82()
+{
+     system("title Volume balok = Panjang x Lebar x Tinggi (Kedalaman)");
+     system("cls");
+     cout<<"Berapa banyak volume tanah pada lubang di dalam lubang dengan panjang 3 meter, lebar 2 meter, dan kedalaman 1 meter?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="takada")
+     {soal83();}
+     else
+     salah();
+}
+void soal81()
+{
+     system("Susun Angka");
+     system("cls");
+     cout<<"Bagaimana cara menyusun penjumlahan bilangan yang terdiri dari angka 8 hingga menghasilkan angka 1.000?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="888+88+8+8+8=1000")
+     {soal82();}
+     else
+     salah();
+}
+void soal80()
+{
+     system("A B C D E F G H I J K L M N O P Q R S T U V W X Y Z");
+     system("cls");
+     cout<<"Apa huruf kelima dalam abjad?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="d")
+     {soal81();}
+     else
+     salah();
+}
+void soal79()
+{
+     system("title Balap karung");
+     system("cls");
+     cout<<"Dalam lomba balap karung, Wawan yang berada di posisi ketiga, "<<endl;
+     cout<<"lalu berhasil menyalip peserta yang ada di posisi kedua. Posisi berapakah Wawan setelah itu?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="2")
+     {soal80();}
+     else
+     salah();
+}
+void soal78()
+{
+     system("title keluarga lagi");
+     system("cls");
+     cout<<"Dalam sebuah keluarga, terdapat 3 anak perempuan yang masing-masing memiliki 1 adik laki-laki. "<<endl;
+     cout<<"Berapakah jumlah anak laki-laki dalam keluarga tersebut?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="1")
+     {soal79();}
+     else
+     salah();
+}
+void soal77()
+{
+     system("Level Up, You re now playing Hard Mode");
+     system("cls");
+     cout<<"Sebutkan 3 buah bilangan yang apabila dijumlahkan hasilnya sama dengan hasil perkalian ketiga bilangan tersebut?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="123")
+     {soal78();}
+     else
+     salah();
+}
+void soal76()
+{
+     system("title Ganjil, Genap, Asli, Cacah, Real, Bulat, Pecahan");
+     system("cls");
+     cout<<"Berapa kali muncul angka 8 pada bilangan bulat 1-100?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="20")
+     {soal77();}
+     else
+     salah();
+}
+void soal75()
+{
+     system("title Fisika");
+     system("cls");
+     cout<<"Jika dibutuhkan waktu 10 menit untuk merebus 1 butir telur, "<<endl;
+     cout<<"berapa waktu yang diperlukan untuk merebus 10 butir telur?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = .... menit";
+     cin>>jawaban;
+     if (jawaban=="10")
+     {soal76();}
+     else
+     salah();
+}
+void soal74()
+{
+     system("title Ribet matematika lagi");
+     system("cls");
+     cout<<"Bagaimana cara menyusun operasi matematika dengan angka 9 hingga menghasilkan angka 100?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="9x9+9+9+9:9=100")
+     {soal75();}
+     else
+     salah();
+}
+void soal73()
+{
+     system("title Pembalap");
+     system("cls");
+     cout<<"Dalam suatu balapan motor, "<<endl;
+     cout<<"Jorge Lorenzo yang menjadi pembalap terdepan berhasil menyalip pembalap yang ada di posisi paling belakang. "<<endl;
+     cout<<"Posisi ke berapakah Jorge Lorenzo setelah itu?"<<endl;
+     cout<<endl;
+     cout<<"    a. Pertama    c. ????? "<<endl;
+     cout<<"    b. Terakhir   d. Gak nonton Pertandingan "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="a")
+     {soal74();}
+     else
+     salah();
+}
+void soal72()
+{
+     system("title Intermezzo");
+     system("cls");
+     cout<<"Adanya di tengah malam dan di ujung bantal, apakah itu?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="l")
+     {soal73();}
+     else
+     salah();
+}
+void soal71()
+{
+     system("title Ditengah tengah hutan dibawah langit biru");
+     system("cls");
+     cout<<"Di hidung ada, di kening nggak ada, di rambut ada, di alis nggak ada, "<<endl;
+     cout<<"di pipi nggak ada, di mata tidak ada, di mulut ada. Apakah itu?"<<endl;
+     cout<<endl;
+     cout<<"    a. Bisul     c. Panu "<<endl;
+     cout<<"    b. Jerawat   d. Uban "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="u")
+     {soal72();}
+     else
+     salah();
+}
+void soal70()
+{
+     system("cls");
+     cout<<"Bagaimana cara menulis huruf abjad dalam waktu kurang dari 5 detik?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="abjad")
+     {soal71();}
+     else
+     salah();
+}
+void soal69()
+{
+     system("cls");
+     cout<<"Kalo lahir menangis, kalo pergi ditangisi. Apakah itu?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="manusia")
+     {soal70();}
+     else
+     salah();
+}
+void soal68()
+{
+     system("cls");
+     cout<<"Hewan apa yang namanya hanya terdiri dari 2 huruf?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="udang")
+     {soal69();}
+     else
+     salah();
+}
+void soal67()
+{
+     system("cls");
+     cout<<"Letaknya dekat, tapi gak bisa dilihat, apakah itu?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="telinga")
+     {soal68();}
+     else
+     salah();
+}
+void soal66()
+{
+     system("cls");
+     cout<<"Yang jual nggak make, yang make nggak beli, dan yang beli nggak make. Apakah itu?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="nisan")
+     {soal67();}
+     else
+     salah();
+}
+void soal65()
+{
+     system("cls");
+     cout<<"Kapur berwarna putih kalo dimasukkan ke dalam air jadi apa?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="basah")
+     {soal66();}
+     else
+     salah();
+}
+void soal64()
+{
+     system("cls");
+     cout<<"Buah apa yang kulitnya banyak durinya, dalemnya isinya duren?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="durian")
+     {soal65();}
+     else
+     salah();
+}
+void soal63()
+{
+     system("cls");
+     cout<<"Yang jual nggak makan, yang makan nggak beli, dan yang beli nggak makan. Apakah itu?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="rumput")
+     {soal64();}
+     else
+     salah();
+}
+void soal62()
+{
+     system("cls");
+     cout<<"udah dapetinnya susah-susah, tapi begitu udah dapet malah dibuang, apakah itu?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="upil")
+     {soal63();}
+     else
+     salah();
+}
+void soal61()
+{
+     system("title Relax bentar");
+     system("cls");
+     cout<<"Apa bahasa Inggrisnya keramas?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="goldenmonkey")
+     {soal62();}
+     else
+     salah();
+}
+void soal60()
+{
+     system("title Benda Ajaib");
+     system("cls");
+     cout<<"Apakah aku? Aku ada di dalam celana dalam perempuan, huruf depanku M belakangnya K siapakah aku?"<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="merek")
+     {soal61();}
+     else
+     salah();
+}
+void soal59()
+{
+     system("title Keluarga Terencana");
+     system("cls");
+     cout<<"Bapak Jhoni punya 5 anak "<<endl;
+     cout<<"yang pertama dina, kedua dini, ketiga dinu, dan keempat dino"<<endl;
+     cout<<"Siapa nama anak terakhir?"<<endl;
+     cout<<endl;
+     cout<<"    a. Dono          c. Danu "<<endl;
+     cout<<"    b. Doni          d. Deni "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="Jhoni")
+     {soal60();}
+     else
+     salah();
+}
+void soal58()
+{
+     system("title gemini");
+     system("cls");
+     cout<<"Simin setiap hari senin,selasa,rabu berkata bohong. "<<endl;
+     cout<<"Siman setiap hari kamis,jum'at,sabtu berkata bohong."<<endl;
+     cout<<"Suatu hari ada percakapan,"<<endl;
+     cout<<"Simin : kemarin saya berbohong."<<endl;
+     cout<<"Siman : saya juga."<<endl;
+     cout<<"kapan percakapan itu terjadi ?"<<endl;
+     cout<<endl;
+     cout<<"    a. Setiap hari           c. Senin "<<endl;
+     cout<<"    b. Minggu                d. Jum'at "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="Kamis")
+     {soal59();}
+     else
+     salah();
+}
+void soal57()
+{
+     system("title Dia, Dia, Dia, Hanya dia, Karena Dia, Dan Cuma Dia");
+     system("cls");
+     cout<<"Dia ada disekitar kita. Setiap hari dia dipakai. "<<endl;
+     cout<<"Sangat penting untuk manusia. Tanpa semua orang sadari,"<<endl;
+     cout<<"Dia bisa menghasilkan uang. Tanpanya kehidupan akan musnah. "<<endl;
+     cout<<"Dia bisa datang suatu saat."<<endl;
+     cout<<"Kita tak tahu kapan dia akan datang."<<endl;
+     cout<<"Siapakah DIA??"<<endl;
+     cout<<endl;
+     cout<<"    a. Uang           c. Listrik "<<endl;
+     cout<<"    b. Juru Selamat   d. Teknologi "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="air")
+     {soal58();}
+     else
+     salah();
+}
+void soal56()
+{
+     system("title katak beradik");
+     system("cls");
+     cout<<"Seekor katak mau menyeberangi sungai yang panjangnya 1000 meter. "<<endl;
+     cout<<"Katak tersebut bisa melakukan sekali lompatan 50 cm / setengah meter. "<<endl;
+     cout<<"Katak tersebut tidak bisa berenang."<<endl;
+     cout<<"Berapa kali katak tersebut melakukan lompatan agar bisa sampai ke seberang??"<<endl;
+     cout<<endl;
+     cout<<"    a. 20       c. mundur 50m, lari sekenceng2nya dan lompat harimau 1x ditambah lompat lagi 5x "<<endl;
+     cout<<"    b. 200      d. 12 "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="1")
+     {soal57();}
+     else
+     salah();
+}
+void soal55()
+{
+     system("title DiMana Mana Hatiku Senang");
+     system("cls");
+     cout<<"Pagi pagi aku ada 2. Siang ada 1. Malam aku tidak ada. "<<endl;
+     cout<<"Aku ada di tengah air dan diujung api. "<<endl;
+     cout<<"Tanpa aku dunia dan cinta tidak aka nada."<<endl;
+     cout<<"SIAPAKAH AKU??"<<endl;
+     cout<<endl;
+     cout<<"    a. Matahari dan Rembulan      c. Dingin dan Panas "<<endl;
+     cout<<"    b. Cahaya                     d. Tuhan "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="i")
+     {soal56();}
+     else
+     salah();
+}
+void soal54()
+{
+     system("title Jika Aku Menjadi");
+     system("cls");
+     cout<<"Aku terdiri 6 huruf, aku menyatakan orang ketiga. "<<endl;
+     cout<<"Jika aku 5 huruf aku adalah anak muda. "<<endl;
+     cout<<"Jika aku 4 huruf aku adalah transaksi di pasar. "<<endl;
+     cout<<"Jika aku 3 huruf aku ada di pintu. "<<endl;
+     cout<<"Jika aku 2 huruf aku adalah bahasa inggris. "<<endl;
+     cout<<"Jika aku 1 huruf aku adalah huruf mati."<<endl;
+     cout<<"SIAPAKAH AKU??"<<endl;
+     cout<<endl;
+     cout<<"    a. dia          c. penjual "<<endl;
+     cout<<"    b. pemuda       d. kunci "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="beliau")
+     {soal55();}
+     else
+     salah();
+}
+void soal53()
+{
+     system("title perawat petani");
+     system("cls");
+     cout<<"Bila seorang petani, memiliki pasangan seorang perawat dan memiliki 3 orag anak (Jaka, Wali, Radit). "<<endl;
+     cout<<"Siapa nama petani"<<endl;
+     cout<<endl;
+     cout<<"    a. Streven      c. Thomas "<<endl;
+     cout<<"    b. Parmin       d. Paijo "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="Bila")
+     {soal54();}
+     else
+     salah();
+}
+void soal52()
+{
+     system("title seraut wajah");
+     system("cls");
+     cout<<"Dimulut ada, di kuping ada, di pipi tidak ada. Dihidung ada, dimata dan di lidah tidak ada. Apakah itu??"<<endl;
+     cout<<endl;
+     cout<<"    a. jerawat      c. panu "<<endl;
+     cout<<"    b. kutil        d. lubang "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="d")
+     {soal53();}
+     else
+     salah();
+}
+void soal51()
+{
+     system("title belajar berhitung");
+     system("cls");
+     cout<<"Ada 2 ruangan A dan B. "<<endl;
+     cout<<"Jika isi A diambil 1 dan dipindahkan ke B maka jumlah isi ruangan B 2x lipat dari A. "<<endl;
+     cout<<"Jika isi B diambil 1 dan dipindahkan ke A maka kedua ruangan berisi sama. "<<endl;
+     cout<<"Berapa isi mula-mula kedua ruangan tersebut???"<<endl;
+     cout<<endl;
+     cout<<"    a. 5 dan 7       c. 1 dan 2 "<<endl;
+     cout<<"    b. 4 dan 6       d. 3 dan 5 "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="a")
+     {soal52();}
+     else
+     salah();
+}
+void soal50()
+{
+     system("title ini bukan kisah misteri");
+     system("cls");
+     cout<<"Pada suatu hari cuaca mendung, ada 3 anak (Rini, Rana, Ranu) yang mau pulang. "<<endl;
+     cout<<"Kemudian kepala sekolah memberikan sebuah payung kepada 3 anak tersebut. "<<endl;
+     cout<<"Rana yang memegang paying, Rini dikiri, Ranu dikanan… siapa yang terkena hujan??"<<endl;
+     cout<<endl;
+     cout<<"    a. rini       c. ranu "<<endl;
+     cout<<"    b. rana       d. kepala sekolah "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="gakada")
+     {soal51();}
+     else
+     salah();
+}
+void soal49()
+{
+     system("title ini pasti kisah misteri");
+     system("cls");
+     cout<<"Pada suatu ketika, detektif Sherlock holmes mengejar seorang perampok. "<<endl;
+     cout<<"dia mendapat informasi, bahwa perampok itu berkulit gelap dan berkumis."<<endl;
+     cout<<"Dalam keadaan lari, tiba2 dia menemui seorang yang mirip dengan perampok,"<<endl;
+     cout<<"namun dia nggak mau berprasangka buruk, dia coba menanyai orang itu"<<endl;
+     cout<<"'Mas, liat perampok berkulit gelap berkumis lari terburu2 lewat sini nggak?'"<<endl;
+     cout<<"Dengan gagap orang itu menjawab 'Oh, i-iya... sa-saya liat. "<<endl;
+     cout<<"Dia... dia tadi ke arah selatan.' "<<endl;
+     cout<<"Orang ini sedikit ngos-ngosan nafasnya, apakah dia habis dari lari?? pikir detektif"<<endl;
+     cout<<"Sherlock holmes ke selatan. Tiba2 bertemu sebuah masjid. "<<endl;
+     cout<<"Dalam kesempatan itu aku menanyai seorang yg ada disana."<<endl;
+     cout<<"'Mas, liat pria dengan ciri2 berkumis & berkulit gelap lari terburu2 lewat sini nggak?'"<<endl;
+     cout<<"'Oh, sepertinya saya tadi liat ada yang lari ke arah kiblat, ke barat sana...' jawabnya."<<endl;
+     cout<<"detektif kembali berlari ke arah yg ditunjuk orang itu."<<endl;
+     cout<<"Sampai di ujung jalan, akhirnya ia menemui orang yg mirip dengan perampok itu. "<<endl;
+     cout<<"Begitu disekap dari belakang, dia kaget dan langsung berontak sambil teriak seolah2 dia tidak bersalah."<<endl;
+     cout<<"Detektif melepaskannya, dalam hati ia berpikir, benarkan orang ini perampoknya??"<<endl;
+     cout<<"3 orang yg ditemui semuanya mirip dengan ciri2 perampok itu..."<<endl;
+     cout<<"tapi kira2 mana perampok yang asli!!? Aku lalu berpikir... dan berpikir..."<<endl;
+     cout<<"Kira2 yg mana perampok yang asli!!?"<<endl;
+     cout<<endl;
+     cout<<"    a. orang pertama       c. orang kedua "<<endl;
+     cout<<"    b. orang ketiga "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="c")
+     {soal50();}
+     else
+     salah();     
+}
+void soal48()
+{
+     system("title kaos kaki flying deutchman");
+     system("cls");
+     cout<<"Jika Anda mempunyai 5 pasang kaus kaki berwarna hitam,"<<endl;
+     cout<<"dan 7 pasang kaus kaki berwarna abu-abu, dan semuanya "<<endl;
+     cout<<"tersimpan menjadi satu dalam satu tempat. "<<endl;
+     cout<<"Berapa kali Anda harus mengambil "<<endl;
+     cout<<"agar Anda mendapatkan sepasang kaus kaki yang berwarna sama ? "<<endl;
+     cout<<endl;
+     cout<<"    a. 5       c. 6 "<<endl;
+     cout<<"    b. 7       d. 12 "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="3")
+     {soal49();}
+     else
+     salah();
+}
+void soal47()
+{
+     system("title tanya level lagi -_-");
+     system("cls");
+     cout<<"COBA TEBAK LEVEL BERAPA SEKARANG ?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"KALO SALAH GAME OVER, HAHAHAHA"<<endl;
+     cout<<endl;
+     cout<<"    a. 80          c. 50 "<<endl;
+     cout<<"    b. 49          d. 52 "<<endl;
+     cout<<"    a1. 48        c1. 40 "<<endl;
+     cout<<"    b1. 59        d1. 72 "<<endl;
+     cout<<"    a2. 70        c2. 60 "<<endl;
+     cout<<"    b2. 39        d2. 62 "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="a1")
+     {soal48();}
+     else
+     salah();
+}
+void soal46()
+{
+     system("title english please !!!");
+     system("cls");
+     cout<<"bahasa inggisnya papan tulis ?"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Answer = ";
+     cin>>jawaban;
+     if (jawaban=="chalkboard")
+     {soal47();}
+     else
+     salah();
+}
+void soal45()
+{
+     system("title arah mata angin lagi -_-");
+     system("cls");
+     cout<<"Kereta KRL melaju ke arah barat daya, asapnya ke arah?"<<endl;
+     cout<<endl;
+     cout<<"    a. kebelakang        c. timur laut "<<endl;
+     cout<<"    b. tenggara          d. barat laut "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="gakada")
+     {soal46();}
+     else
+     salah();
+}
+void soal44()
+{
+     system("title kuda poni");
+     system("cls");
+     cout<<"jika seekor kuda menghadap barat laut, ekornya menghadap ?"<<endl;
+     cout<<endl;
+     cout<<"    a. tenggara        c. barat daya "<<endl;
+     cout<<"    b. timur laut      d. arah 225 derajat "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="bawah")
+     {soal45();}
+     else
+     salah();
+}
+void soal43()
+{
+     system("title berat badan");
+     system("cls");
+     cout<<"mana yang benar"<<endl;
+     cout<<endl;
+     cout<<"    a. berat badan toni 50 KG        c. ukuran tetap gravitasi adalah 10"<<endl;
+     cout<<"    b. berat badan toni 500 Newton   d. satuan berat adalah KG "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="b")
+     {soal44();}
+     else
+     salah();
+}
+void soal42()
+{
+     system("title duit lagi -_-");
+     system("cls");
+     cout<<"uang pecahan seratus ribu nol nya ada berapa ?"<<endl;
+     cout<<endl;
+     cout<<"    a. 5         c. 15 "<<endl;
+     cout<<"    b. 10        d. 20 "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="d")
+     {soal43();}
+     else
+     salah();
+}
+void soal41()
+{
+     system("title cerita rakyat");
+     system("cls");
+     cout<<"anak TK       : kakak, 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 + 9 berapa ?"<<endl;
+     cout<<"mahasiswa     : itu mah mudah, sama seperti 9 X 9, hasilnya 81"<<endl;
+     cout<<"anak TK       : kalo aku punya uang Rp.1200 beli permen Rp.400 kembaliannya berapa ?"<<endl;
+     cout<<"mahasiswa     : ";
+     cout<<"Jawabannya Rp.";
+     cin>>jawaban;
+     if (jawaban=="600")
+     {soal42();}
+     else
+     salah();
+}
+void soal40()
+{
+     system("title farmer");
+     system("cls");
+     cout<<"petani indonesia paling gak bisa nanem apa hayo?"<<endl;
+     cout<<endl;
+     cout<<"    a. apel          c. arbei "<<endl;
+     cout<<"    b. anggur        d. pear "<<endl;
+     cout<<"    e. pare          f. buah buahan import "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="e")
+     {soal41();}
+     else
+     salah();
+}
+void soal39()
+{
+     system("title jerapah laut");
+     system("cls");
+     cout<<"binatang apa yang jago berenang ?"<<endl;
+     cout<<endl;
+     cout<<"    a. ikan        c. kuda laut "<<endl;
+     cout<<"    b. bebek       d. jerapah laut "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="b")
+     {soal40();}
+     else
+     salah();
+}
+void soal38()
+{
+     system("title kucing lagi -_-");
+     system("cls");
+     cout<<"jari kaki belakang kucing ?"<<endl;
+     cout<<endl;
+     cout<<"    a. 8        c. 10 "<<endl;
+     cout<<"    b. 9        d. 12 "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="d")
+     {soal39();}
+     else
+     salah();
+}
+void soal37()
+{
+     system("title kit kat artinya kucing kesakitan");
+     system("cls");
+     cout<<"jari kaki depan kucing ada berapa ?"<<endl;
+     cout<<endl;
+     cout<<"    a. 10              c. 8 "<<endl;
+     cout<<"    b. jangan pilih b  d. 9 "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="c")
+     {soal38();}
+     else
+     salah();
+}
+void soal36()
+{
+     system("title soal matematika");
+     system("cls");
+     cout<<"2+2X2-2/2 = ?"<<endl;
+     cout<<endl;
+     cout<<"    a. 3        c. kayaknya tiga "<<endl;
+     cout<<"    b. 5        d. mungkin 5 "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="b")
+     {soal37();}
+     else
+     salah();
+}
+void soal35()
+{
+     system("title sudut");
+     system("cls");
+     cout<<"jam 12:15 membentuk sudut lancip berapa drajat ?"<<endl;
+     cout<<endl;
+     cout<<"    a. 90          c. 85 "<<endl;
+     cout<<"    b. 86.25       d. 80.25 "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="b")
+     {soal36();}
+     else
+     salah();
+}
+void soal34()
+{
+     system("title ruangan");
+     system("cls");
+     cout<<"ruang apa yang paling di takutin di RS?"<<endl;
+     cout<<endl;
+     cout<<"    a. Ruang Bedah         c. Kamar Mayat "<<endl;
+     cout<<"    b. Ruang Otopsi        d. Ruang Administrasi "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="d")
+     {soal35();}
+     else
+     salah();
+}
+void soal33()
+{
+     system("title level 34");
+     system("cls");
+     cout<<"minuman apa yang paling murah di warteg?"<<endl;
+     cout<<endl;
+     cout<<"    a. Air Putih          c. Air Bening "<<endl;
+     cout<<"    b. Air Mineral        d. Air Bersoda "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="c")
+     {soal34();}
+     else
+     salah();
+}
+void soal32()
+{
+     system("title balapan");
+     system("cls");
+     cout<<"ayam sama telur duluan yang mana?"<<endl;
+     cout<<endl;
+     cout<<"    a. Ayam           b. Telur "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="a")
+     {soal33();}
+     else
+     salah();
+}
+void soal31()
+{
+     system("title tiga dua");
+     system("cls");
+     cout<<"rem itu gunanya buat apa?"<<endl;
+     cout<<endl;
+     cout<<"    a. buat berhenti          c. buat ngebut "<<endl;
+     cout<<"    b. biar gak nabrak        d. biar greget "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="c")
+     {soal32();}
+     else
+     salah();
+}
+void soal30()
+{
+     system("title tiga satu");
+     system("cls");
+     cout<<"kenapa mobil berhenti dilampu merah ?"<<endl;
+     cout<<endl;
+     cout<<"    a. takut ditilang      c. takut ketabrak "<<endl;
+     cout<<"    b. takut polisi        d. abc benar "<<endl;
+     cout<<"    e. karena di rem"<<endl;     
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="e")
+     {soal31();}
+     else
+     salah();
+}
+void soal29()
+{
+     system("title tiga roda");
+     system("cls");
+     cout<<"Ban Becak Ada Berapa hayoo?"<<endl;
+     cout<<endl;
+     cout<<"    a. 3           c. three "<<endl;
+     cout<<"    b. tiga        d. telu "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="6")
+     {soal30();}
+     else
+     salah();
+}
+void soal28()
+{
+     system("title Lampu merah");
+     system("cls");
+     system("color 00");
+     cout<<"lampu apa yang ada di persimpangan jalan?"<<endl;
+     cout<<endl;
+     cout<<"    a. lampu merah            c. lampu hijau "<<endl;
+     cout<<"    b. lampu kuning           d. lampu motor "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="abc")
+     {soal29();}
+     else
+     salah();
+}
+void soal27()
+{
+     system("title Plantae");
+     system("cls");
+     cout<<"Yang merupakan tanaman langka"<<endl;
+     cout<<endl;
+     cout<<"    a. Tilapia Mozambica      c. Leucopsar rothschildi "<<endl;
+     cout<<"    b. Raflesia Arnold        d. Gecko Gecko "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="b")
+     {soal28();}
+     else
+     salah();
+}
+void soal26()
+{
+     system("title Indonesian Species");
+     system("cls");
+     cout<<"Leucopsar rothschildi "<<endl;
+     cout<<endl;
+     cout<<"    a. Anoa           e. Gamabunta "<<endl;
+     cout<<"    b. Orang Utan     f. Banteng "<<endl;
+     cout<<"    c. Cendrawasih    g. Jalak Bali "<<endl;
+     cout<<"    d. Harimau Jawa   h. Siamang "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="g")
+     {soal27();}
+     else
+     salah();
+}
+void soal25()
+{
+     system("title Species");
+     system("cls");
+     cout<<"Daubentonia Madagascariensis"<<endl;
+     cout<<endl;
+     cout<<"    a. Pinguin Madagaskar           c. Aye-aye "<<endl;
+     cout<<"    b. Lemur                        d. Manusia Purba "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="c")
+     {soal26();}
+     else
+     salah();
+}
+void soal24()
+{
+     system("title lvl 25");
+     system("cls");
+     cout<<"Indonesian Red Cross Organization"<<endl;
+     cout<<endl;
+     cout<<"    a. IRCO           c. Pencak silat "<<endl;
+     cout<<"    b. PMI            d. Kapak Merah Indonesia "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="b")
+     {soal25();}
+     else
+     salah();
+}
+void soal23()
+{
+     system("title Code Again, use keygen LOL ");
+     system("cls");
+     cout<<"qhqaqi wolq qfrq wqeq/"<<endl;
+     cout<<endl;
+     cout<<"    a. Mboh           c. nyerah deh "<<endl;
+     cout<<"    b. gak tau        d. hgihg "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="nq")
+     {soal24();}
+     else
+     salah();
+}
+void soal22()
+{
+     system("title De Javu");
+     system("cls");
+     cout<<"ada berapa jumlah penari pada gambar uang di pertanyaan kedua"<<endl;
+     cout<<endl;
+     cout<<"    a. Asem           c. lupa "<<endl;
+     cout<<"    b. gak tau        d. Sepuluh mungkin "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="6")
+     {soal23();}
+     else
+     salah();
+}
+void soal21()
+{
+     system("title Complement");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Twin   = La "<<endl;
+     cout<<"Moon   = Sun "<<endl;
+     cout<<"Yin    = Yang "<<endl;
+     cout<<"Adam   = ";
+     cin>>jawaban;
+     if (jawaban=="eve")
+     {soal22();}
+     else
+     salah();
+}
+void soal20()
+{
+     system("title Eyeshield 21");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Saya adalah seorang manajer sepak bola, saya dan dua orang pemain timnas "<<endl;
+     cout<<"dan satu skuad utama sedang menuju ke kota kediri kami sepakat untuk "<<endl;
+     cout<<"pergi ke kediri dengan pesawat terbang, pada saat dibandara saya "<<endl;
+     cout<<"bertemu dengan sepasang suami istri yang memiliki 11 anak kembar"<<endl;
+     cout<<"4 dari anak kebar sudah berkeluarga sendiri dan memiliki 12 anak"<<endl;
+     cout<<endl;
+     cout<<"Berapa orang yang pergi ke kediri"<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="14")
+     {soal21();}
+     else
+     salah();
+}
+void soal19()
+{
+     system("title First Code");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<" ... .. .-.. .- .... -.- .- -. / -- .- ... ..- -.- -.- .- -. / -.- --- -.. . /"<<endl;
+     cout<<"-.-- .- -. --. / -.. .- .--. .- - / -.. .. -.- . - .- .... ..- .. / "<<endl;
+     cout<<"-- . .-.. .- .-.. ..- .. / - .. - .-.. . / / .--. .- -.. .- / .-.. . ...- . .-.. / ..--- -----"<<endl;
+     cout<<endl;
+     cout<<"                     .--- .- .-- .- -... .- -. = ";
+     cin>>jawaban;
+     if (jawaban=="first")
+     {soal20();}
+     else
+     salah();      
+ }
+void soal18()
+{
+     system("title level 19");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Type Password : "<<endl;
+     cin>>jawaban;
+     cout<<"Try Again !!!"<<endl;
+     cout<<"Type Password : "<<endl;
+     cin>>jawaban;
+     cout<<"Try Again !!!"<<endl;
+     cout<<"Type Password : ";
+     cin>>jawaban;
+     if (jawaban=="password")
+     {soal19();}
+     else
+     salah(); 
+ }
+void soal17()
+{
+     system("title Indonesian Scout");
+     system("cls");
+     system("color 0f");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Agar Jaya Indonesia"<<endl;
+     cout<<"Indonesia Tanah Airku"<<endl;
+     cout<<"Kami Jadi ..........."<<endl;
+     cout<<endl;
+     cout<<"1.	Pejuangmu"<<endl;
+     cout<<"2.	Pahlawanmu"<<endl;
+     cout<<"3.	Pembelamu"<<endl;
+     cout<<"4.	Pandumu"<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="4")
+     {soal18();}
+     else
+     salah();     
+ }
+void soal16()
+{
+     system("title level 17");
+     system("cls");
+     system("color 0f");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Indonesian National Anthem "<<endl;
+     cout<<"1.	Soekarno - Hatta"<<endl;
+     cout<<"2.	W.R. Supratman"<<endl;
+     cout<<"3.	Indonesia Raya"<<endl;
+     cout<<"4.	Susilo Bambang Yudoyono"<<endl;
+     cout<<"5.	Pancasila"<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="3")
+     {soal17();}
+     else
+     salah();
+ }
+void soal15()
+{
+     system("title root@hack#");
+     system("color 0a");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Hack Login : root "<<endl;
+     cout<<"Password   : ************* "<<endl;
+     cout<<"system login successfull"<<endl;
+     cout<<"you are now login as root"<<endl;
+     cout<<"root@hack#"<<endl;
+     cout<<"system crash, shutdown your PC"<<endl;
+     cout<<"root@hack#init 0"<<endl;
+     cout<<"init error, please use other command"<<endl;
+     cout<<"root@hack#shutdown -s"<<endl;
+     cout<<"are you kidding me? it's Windows command"<<endl;
+     cout<<"system crash....."<<endl;
+     cout<<"system crash....."<<endl;
+     cout<<"root@hack#";
+     cin>>jawaban;
+     if (jawaban=="halt")
+     {soal16();}
+     else
+     salah();
+ }
+void soal14()
+{
+     system("title Level 15");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<" M - V - E - M - J - S - U - N - ? "<<endl;
+     cout<<"Solar system"<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="P")
+     {soal15();}
+     else
+     salah();
+ }
+void soal13()
+{
+     system("title Pertanyaan 14");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"I'm Not I"<<endl;
+     cout<<"I'm Beside U"<<endl;
+     cout<<"               Who Am I = ";
+     cin>>jawaban;
+     if (jawaban=="y")
+     {soal14();}
+     else
+     salah();
+ }
+void soal12()
+{
+     system("title Level berapa sekarang ??");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     system("ping 127.0.0.1");
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="13")
+     {soal13();}
+     else
+     salah();
+ }
+void soal11()
+{
+     system("title Twilight");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Salah satu media penyimpanan data yang berkapasitas besar adalah "<<endl;
+     cout<<"1.	Flashdisk"<<endl;
+     cout<<"2.	DVD"<<endl;
+     cout<<"3.	Hardisk"<<endl;
+     cout<<"4.	Floppy Drive"<<endl;
+     cout<<"5.	Card Reader"<<endl;
+
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="3")
+     {soal12();}
+     else
+     salah();
+ }
+void soal10()
+{
+     system("title Elephant");
+     system("color 0f");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Berapa Ukuran Harddisk yang Pertama kali ditemukan (IBM RAMAC) ?"<<endl;
+     cout<<"    a. 10 MB                 e. 100 TB "<<endl;
+     cout<<"    b. 5 GB                  f. 1024 KB "<<endl;
+     cout<<"    c. 40 GB                 g. 256 MB "<<endl;
+     cout<<"    d. saya belum lahir      h. 5 MB "<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="h")
+     {soal11();}
+     else
+     salah();
+ }
+void soal9()
+{
+     system("title Pertanyaan kesepuluh");
+     system("color fe");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"jangan TEKAN HURUF A SEKARANG ATAU ANDA AKAN GAME OVER !!!!"<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="a")
+     {salah();}
+     else
+     soal10();
+ }
+void soal8()
+{
+     system("title Pertanyaan kesembilan");
+     system("cls");
+     system("color fa");
+     system("color /?");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Masih ingat soal ketiga?"<<endl;
+     cout<<"                    color = ";
+     cin>>jawaban;
+     if (jawaban=="fe")
+     {soal9();}
+     else
+     salah();
+ }
+void soal7()
+{
+     system("title Pertanyaan kedelapan");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"mobil = car"<<endl;
+     cout<<"kucing = ??"<<endl;
+     cout<<endl;
+     cout<<"    a. cat            c. mak lampir "<<endl;
+     cout<<"    b. gak paham      d. rat "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="a")
+     {soal8();}
+     else
+     salah();
+ }
+void soal6()
+{
+     system("title Pertanyaan 7");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Diketahui : "<<endl;
+     cout<<"Alas segitiga               = 3 cm"<<endl;
+     cout<<"Sisi miring segitiga        = 5 cm"<<endl;
+     cout<<"Keliling segitiga           = 12 cm"<<endl;
+     cout<<"Luas segitiga               = belum diketahui"<<endl;
+     cout<<"Sisi persegi                = 10 cm"<<endl;
+     cout<<"keliling Persegi            = 40 cm"<<endl;
+     cout<<"Luas persegi                = 100 cm persegi"<<endl;
+     cout<<"Jika Luas segitiga          = 1/2 * Alas * Tinggi"<<endl;
+     cout<<"Tinggi segitiga             = akar (Sisi miring kuadrat - alas kuadrat)"<<endl;
+     cout<<"dan rumus Persegi panjang   = Panjang * Lebar"<<endl;
+     cout<<endl;
+     cout<<"Maka, berapakah Keliling Segitiga ?"<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="12")
+     {soal7();}
+     else
+     salah();
+ }
+void soal5()
+{
+     system("title Pertanyaan keenam");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"? - Soe - Hab - Gus - Meg - Sus "<<endl;
+     cout<<"RI 1"<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="Soe")
+     {soal6();}
+     else
+     salah();
+ }
+void soal4()
+{
+     system("title Pertanyaan kelima");
+     system("color f1");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Seorang anak TK mempunyai 1 kotak, didalam kotak tersebut terdapat 4 kotak lagi"<<endl;
+     cout<<"didalam kotak tersebut tedapat 8 kotak lagi, dan didalamnya ada 16 kotak lagi."<<endl;
+     cout<<"jika temannya mempunyai 32 kotak, berapa kotak yang dimiliki anak TK tersebut?"<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="1")
+     {soal5();}
+     else
+     salah();
+ }
+void soal3()
+{
+     system("title Pertanyaan keempat");
+     system("color 0f");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"1 2 3 5 8 13 21 34 ??"<<endl;
+     cout<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="55")
+     {soal4();}
+     else
+     salah();
+ }
+void soal2()
+{
+     system("title Pertanyaan ketiga");
+     system("color fe");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"apakah bisa anda baca?"<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="ya")
+     {soal3();}
+     else
+     salah();
+ }
+void soal1()
+{
+     system("title Pertanyaan kedua");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"Siapakah nama pahlawan pada gambar uang Rp 2.000"<<endl;
+     cout<<endl;
+     cout<<"    a. Spiderman            c. Imam Bonjol "<<endl;
+     cout<<"    b. Sudirman             d. Pangeran Antasari "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="d")
+     {soal2();}
+     else
+     salah();
+ }
+void soal()
+{
+     system("title Pertanyaan pertama");
+     system("cls");
+     cout<<endl;
+     cout<<endl;
+     cout<<"1 + 1 = "<<endl;
+     cout<<endl;
+     cout<<"    a. 1            c. 3 "<<endl;
+     cout<<"    b. 2            d. e "<<endl;
+     cout<<endl;
+     cout<<"                    Jawaban = ";
+     cin>>jawaban;
+     if (jawaban=="b")
+     {soal1();}
+     else
+     salah();
+}
+void help()
+{
+     system("title Peraturan..................");
+     system("color f0");
+     system("cls");
+cout<<endl;
+cout<<endl;
+cout<<"jangan lupa baca doa sebelum mulai"<<endl;
+cout<<"jangan tertawa jika itu gak lucu"<<endl;
+cout<<"Peraturan dalam game ini tidak terlalu berat"<<endl;
+cout<<"karena kalau berat berarti anda  sedang membawa karung beras 1 ton"<<endl;
+cout<<"Jawab pertanyaan yang ada dengan jawaban sebisanya"<<endl;
+cout<<"kalau gak tau jawaban, diperbolehkan open book / buka internet"<<endl;
+cout<<"pertanyaannya dipastikan ada banyak jadi jangan kuatir gak kebagian"<<endl;
+cout<<"game ini tidak cocok untuk umur 17th kebawah"<<endl;
+cout<<"apalagi usia balita, karena menyebabkan efek ketergantungan dan unsur eksploitasi kata-kata"<<endl;
+cout<<"bagi yang sedang sakit, terkena gejala flu, demam, bahkan sakit jantung dilarang keras memainkan game ini"<<endl;
+cout<<"karena jika anda sakit, sebaiknya anda berobat bukan bermain game"<<endl;
+cout<<"semua pertanyaan di game ini bervariasi, dari soal anak TK hingga pertanyaan untuk calon sarjana(Mahasiswa) bahkan sarjana"<<endl;
+cout<<"jangan lupa memakai sabuk pengaman jika anda sedang berkendara"<<endl;
+cout<<"Orang frustasi, remaja galau, fakir miskin, dan orang terlantar diperbolehkan memainkan game ini"<<endl;
+cout<<endl;
+cout<<"tekan enter untuk melanjutkan"<<endl;
+system("pause>>null");
+system("cls");
+cout<<endl;
+cout<<endl;
+cout<<"TERIMA KASIH TELAH MEMBACA TULISAN TADI"<<endl;          
+cout<<"PERATURAN ADA DIBAWAH, yang ada garisnya"<<endl;
+cout<<endl;
+cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+cout<<"PERATURANNYA HANYA SATU, yaitu JANGAN PERNAH SALAH ATAU ANDA AKAN MENYESAL"<<endl;
+cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+cout<<"sudah itu saja"<<endl;
+cout<<"Semoga beruntung dan semoga anda tidak frustasi"<<endl;
+cout<<endl;
+cout<<"tekan enter untuk melanjutkan"<<endl;
+system("pause>>null");
+return ;
+}
+void tentang()
+{
+     system("title Tentang pembuat game");
+     system("color 70");
+     system("cls");
+cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+cout<<"Terima kasih kepada Tuhan yang telah memberikan kesempatan membuat game"<<endl;
+cout<<"Terima kasih kepada para utusanNya, yang telah membawa ke jalan yang lurus"<<endl;
+cout<<"Terima kasih kepada orang tua, dosen, guru, dan teman-teman sekelas"<<endl;
+cout<<"Terima kasih juga kepada mereka yang tidak tercantumkan atas partisipasinya"<<endl;
+cout<<"Game ini didesain dan dibuat oleh dua orang jenius dengan inisial setyobudi"<<endl;
+cout<<"Banyak sekali inspirasi yang mendukung terciptanya game ini"<<endl;
+cout<<"Semoga anda beruntung dan berhasil menamatkan game ini"<<endl;
+cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+cout<<"                                     Author    : Muhammad Hakim Setyobudi"<<endl;
+cout<<""<<endl;
+cout<<"                                     NIM       : 12.03.03.0285"<<endl;
+cout<<""<<endl;
+cout<<"                                     Kelas     : 2F Sistem Informasi"<<endl;
+cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ(copypaste 2013)"<<endl;
+cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+cout<<"anda boleh memperbanyak atau menyalin file ini ke semua komputer dan menyebarkan"<<endl;
+cout<<endl;
+cout<<"Semoga beruntung dan semoga anda tidak frustasi"<<endl;
+cout<<"tekan enter untuk melanjutkan"<<endl;
+system("pause>>null");
+return ;
+}
+void password()
+{
+system("cls");
+system("title Lho, gae password");
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+        cout<<"==>    Game (Anti) Frustasi            <=="<<endl;
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+        cout<<endl;
+        cout<<endl;
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;            
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+        cout<<"Password.e opo? Aku pengen Eroh"<<endl;
+        cout<<"lek pengen langsung maen, tulisen menang ben menang"<<endl;
+        cout<<"Tulisen nang kene yo : ";
+        cin>>pass;
+        if (pass =="menang")
+        {soal();
+        }
+        if (pass =="hack")
+        {soal();
+        }
+        if (pass =="milanisti")
+        {soal();
+        }
+        if (pass =="juara")
+        {soal();
+        }
+        if (pass =="password")
+        {soal18();
+        }
+        if (pass =="nq")
+        {soal23();
+        }
+        if (pass =="morse")
+        {soal19();
+        }
+        if (pass =="tanduran")
+        {soal27();
+        }
+        if (pass =="sudut")
+        {soal35();
+        }
+        if (pass =="limapuluh")
+        {soal50();
+        }
+        if (pass =="suwidak")
+        {soal60();
+        }
+        if (pass =="kamu")
+        {soal90();
+        }
+        if (pass =="13")
+        {soal12();
+        }
+        if (pass =="tk")
+        {soal4();
+        }
+        if (pass =="mahasiswa")
+        {soal41();
+        }
+        if (pass =="songopapat")
+        {soal94();
+        }
+        if (pass =="elephant")
+        {soal10();
+        }
+        if (pass =="hekel")
+        {soal15();
+        }
+        if (pass =="dia")
+        {soal57();
+        }
+        if (pass =="aku")
+        {soal54();
+        }
+        if (pass =="y")
+        {soal13();
+        }
+        else
+        cout<<"PASSWORD SALAH................."<<endl;
+        {password();
+                            }
+return ;
+}
+main ()
+
+{
+        system("title Welcome to Game (Anti) Frustasi");
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+        cout<<"==>    Game (Anti) Frustasi            <=="<<endl;
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+        cout<<endl;
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+        cout<<"selamat datang di game (anti) frustasi"<<endl;
+        cout<<"jangan lupa baca peraturan sebelum bermain"<<endl;
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;   
+        cout<<endl;
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+        cout<<"Perintah yang disediakan :"<<endl; 
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;  
+        cout<<"                                     mulai"<<endl;   
+        cout<<"                                 peraturan"<<endl;   
+        cout<<"                                  password"<<endl;  
+        cout<<"                                   tentang"<<endl;          
+        cout<<"ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ"<<endl;
+        cout<<"tulis salah satu perintah diatas :";   
+        cin>>jawaban;
+        if (jawaban =="mulai" || jawaban =="MULAI")
+        {soal();
+                            }
+        else if (jawaban =="peraturan" || jawaban =="PERATURAN")
+        {help();
+                            }
+        else if (jawaban =="tentang" || jawaban =="TENTANG")
+        {tentang();
+                            }
+        else if (jawaban =="password" || jawaban =="PASSWORD")
+        {password();
+                            }
+        else
+        {
+            system("title Woeeee Kliru...! !! ! ! !");
+            system("color fa");
+            system("cls");
+            cout<<"perintah '"<<jawaban<<"' gak ada kakak"<<endl;
+            cout<<"silahkan dibaca dan ditulis lagi perintahnya"<<endl;
+            cout<<"tekan enter untuk melanjutkan"<<endl;
+            system("pause>>null");
+            system("cls");
+            return 1;
+                            }
+                            system("cls");
+                            return 1;
+system("pause>>null");
+return 0;
+}
